@@ -17,4 +17,10 @@ class Song < ApplicationRecord
 		@plays = plays
 		@year = year
 	end
+
+	# This function will take an array of data from the front-end in the
+	# form of json data sent through an ajax request
+	def edit_song_info(data_array)
+	end
+
 end
